@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="DormManage:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/DormManage_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="DormManage/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="DormManage" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/standard.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/sqlserver-win-auth.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/mssql-jdbc-9.2.0.jre8.jar" />
+          <element id="file-copy" path="$APPLICATION_CONFIG_DIR$/jdbc-drivers/SQL Server/9.2.0/sqlserver-win-auth.jar" />
+          <element id="library" level="project" name="sqlserver-win-auth" />
+          <element id="library" level="project" name="mssql-jdbc-9.2.0.jre8" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-3.1.12-bin.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
